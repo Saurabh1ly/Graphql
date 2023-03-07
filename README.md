@@ -10,6 +10,8 @@ To directly download the schema from server, run the following gradle command
 ./gradlew :app:downloadApolloSchema --endpoint='https://countries.trevorblades.com/graphql' --schema=app/src/main/graphql/com.graphql/schema.graphqls
 
 Note: Need to define the package name for apollo service in app level build.gradle as below
+
+
 apollo {
     service("service") {
         packageName.set("com.graphql")
